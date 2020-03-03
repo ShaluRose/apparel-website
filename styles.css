@@ -1,0 +1,120 @@
+body{
+  position: relative;
+  background-image: url(images/bg-pattern-desktop.svg);
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* Logo */
+.logo{
+  position: relative;
+}
+
+.container-fluid{
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  padding-top: 50px;
+  padding-left: 200px;
+  height: 500px;
+  width: 500px;
+}
+
+
+/* Heading */
+p{
+  line-height: 1.2;
+}
+.coming-soon{
+  font-size: 40px;
+  font-weight: 300;
+}
+.comesoon{
+  font-weight: bold;
+  margin: 0;
+}
+.we{
+  color: #cc6a87;
+  font-weight: 300;
+  margin: 100px 0 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.hello-shoppers{
+  color: #cc6a87;
+  line-height: 2;
+}
+
+/* Email Field */
+
+
+.email-field{
+  position: relative;
+  border-style: solid;
+  border-width: 1.5px;
+  height: 40px;
+  width: 400px;
+  background: transparent;
+  text-indent: 20px;
+  border-bottom-left-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-color: #cc6a87;
+  margin-top: 50px;
+
+}
+/* Email Button */
+
+.btn{
+  position: relative;
+
+  height: 42px;
+  width: 70px;
+ 
+ bottom: 41px;
+ left: 330px;
+  border-bottom-left-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-style: none;
+  right:75px;
+  color: white;
+  background: linear-gradient(#ffd5d5, #cc6a87);
+}
+.btn:focus{
+  outline: none;
+}
+.next{
+  height: 15px;
+  width:10px;
+}
+
+/* Form */
+.form{
+  position: absolute;
+}
+input{
+  outline: none;
+}
+
+/* Main Image */
+
+.mascot{
+  float: right;
+  height: 100%;
+  margin: 0;
+}
+
+
+
+/* Media Breakpoint */
+@media(max-width:375px){
+  body{
+    text-align: center;
+  }
+  .mascot{
+    position: static;
+  }
+}
